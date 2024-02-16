@@ -6,6 +6,8 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
+import java.util.Date;
+
 @Entity
 @Getter
 @Setter
@@ -19,4 +21,9 @@ public class Voiture {
     String model;
     long numérodeserie;
     String description;
+    String pickupreturn;
+    String diffreturn ;
+    Date PickupDate;
+    Date ReturnDate ;
+    long price;
 }
